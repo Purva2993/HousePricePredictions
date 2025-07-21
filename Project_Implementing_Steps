@@ -1,0 +1,13 @@
+1. Create Virtual Environment - 
+            python -m venv hpenv
+            source hpenv/bin/activate
+            pip install -r requirements.txt
+
+2. Create Project Structure - 
+            HousePrice Prediction/
+├── data/
+│   ├── raw/           (for original dataset)
+│   └── processed/     (for cleaned data)
+├── notebooks/         (for Jupyter notebooks)
+├── src/              (for Python modules - optional for now)
+└── models/           (for saved models - optional for now)
